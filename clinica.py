@@ -1,8 +1,8 @@
 
 #------ATENÇÂO------
-#Quando iniciar o codigo, crie um usuario para pooder utilizar o sistema, apos criar, selecione a opção de fazer login
-#use as mesmas infos utilizadas para criar usuario,apos sera direcionado para o menu de opoções do sistema para poder fazer a utilização, se não não ira conseguir acessar o menu principal.
-
+#Ao iniciar o código, crie um usuário para poder utilizar o sistema. 
+# Depois, faça login utilizando as mesmas informações cadastradas. 
+#Somente após o login será possível acessar o menu principal do sistema.
 
 import collections
 
