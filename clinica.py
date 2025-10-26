@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 #------ATENÇÃO------
-=======
-
-#------ATENÇÂO------
->>>>>>> 6efac5ee57d74e8f7fe450415aee05097e9cdf8c
 #Ao iniciar o código, crie um usuário para poder utilizar o sistema. 
 # Depois, faça login utilizando as mesmas informações cadastradas. 
 #Somente após o login será possível acessar o menu principal do sistema.
@@ -49,12 +44,8 @@ def exibir_menu_principal():
     print("6. Buscar Registro de Consumo")
     print("7. Ordenar Histórico de Consumo")
     print("8. Criar Novo Usuário")
-<<<<<<< HEAD
     print("9. Otimizar Reposição de Estoque (Programação Dinâmica)")
     print("10. Sair")
-=======
-    print("9. Sair")
->>>>>>> 6efac5ee57d74e8f7fe450415aee05097e9cdf8c
     return input("Escolha uma opção: ")
 
 def fazer_login():
@@ -360,7 +351,6 @@ def menu_ordenacao_consumo():
     for i, registro in enumerate(lista_ordenada):
         print(f"{i+1}. Item: {registro['item']}, Qtd: {registro['quantidade']}, Tipo: {registro['tipo']}, Usuário: {registro['usuario']['nome']}")
 
-<<<<<<< HEAD
 #PROGRAMAÇÃO DINÂMICA 
 
 """
@@ -794,8 +784,6 @@ def executar_testes_automaticos():
     print("  * Função de transição de estados")
     print("  * Otimização da função objetivo")
 
-=======
->>>>>>> 6efac5ee57d74e8f7fe450415aee05097e9cdf8c
 def main():
     usuario_logado = realizar_login_ou_criacao_usuario()
     if not usuario_logado:
@@ -844,19 +832,12 @@ def executar_menu_principal(usuario_logado):
         elif opcao == '8':
             criar_novo_usuario()
         elif opcao == '9':
-<<<<<<< HEAD
             menu_otimizacao_estoque()
         elif opcao == '10':
-=======
->>>>>>> 6efac5ee57d74e8f7fe450415aee05097e9cdf8c
             print("Saindo do sistema. Até mais!")
             break
         else:
             print("Opção inválida. Por favor, escolha novamente.")
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     main()
-=======
-    main()
->>>>>>> 6efac5ee57d74e8f7fe450415aee05097e9cdf8c
